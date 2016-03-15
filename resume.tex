@@ -1,6 +1,7 @@
 \documentclass[11pt,a4paper]{moderncv}
 
 \moderncvtheme[blue]{classic}
+\usepackage{hyperref}
 \usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xeCJK}
@@ -51,13 +52,10 @@
 \cvline{特点}{拥有较强的快速学习能力，期待用技术提供有价值的服务}
 
 \section{工作履历}
-\cventry{2013 年 7 月 - 2013 年 9 月}{后端研发实习生（PHP）}{美丽说}{北京美丽说网络科技有限公司}{}{主要职责为：参与美丽说网站后端系统新特性的实现以及既有业务的维护。在熟悉了公司内部基于 PHP 的 Web 框架后于其基础之上进行开发，期间在导师指导下参与过后端服务核心模块的优化。\newline{}}
-\cventry{2013 年 4 月 - 2015 年 3 月}{后端研发工程师（Python）、项目最早期参与者}{恋爱记}{武汉滴滴网络科技有限公司}{}{主要职责为：后端系统从零开始的技术选型、方案设计以及最终实现；新需求的研发和既有代码的维护；技术人才的招聘、面试以及培养；产品层面的技术咨询和公司层面的决策。\newline{}}
+\cventry{2013 年 4 月 - 2015 年 3 月}{后端研发工程师（Python）、项目最早期参与者}{恋爱记}{武汉滴滴网络科技有限公司}{}{主要职责为：后端系统从零开始的技术选型、方案设计以及最终实现；新需求的研发和既有代码的维护；技术人才的招聘、面试以及培养；产品层面的技术咨询和公司层面的决策。项目于 2014 年底获得 150 万美元风险投资。\newline{}}
 \cventry{2015 年 3 月 - 至今}{后端数据平台高级工程师（Java、Hadoop、Python）}{爱美购}{深圳爱美购网络科技有限公司}{}{主要职责为：早期参与公司后端服务程序的研发、维护，后至今负责公司大数据平台的基础设施构建、维护以及基于其的数据产品的研发、维护，为公司产品研发、内容运营、营收等重要决策过程提供稳定的数据支持服务。\newline{}}
 
 \section{项目经历}
-\subsection{北京美丽说网络科技有限公司期间}
-\cvline{美丽说后端业务系统}{参与了美丽说后端业务系统的研发、维护。与前端工程师一起完成了美丽说账户体系中雅虎邮箱用户的迁移工作，完成了美丽说热门单品下架检测程序，进行了开放平台分享程序的重构与维护。}
 
 \subsection{武汉滴滴网络科技有限公司期间}
 \cvline{恋爱记}{参与了恋爱记服务端程序从零开始的设计、研发、维护。主要使用 Python 语言进行开发，并基于 MySQL、Redis、Celery、Django 等基础软件搭建了多机器后端系统，能够支持一定的并发量，高峰期日处理动态请求数可达千万次。对外设计并实现了 RESTFul HTTP 接口供客户端使用，对内设计并实现了基于 Thrift 的服务接口供其它服务使用，进而确立了后端服务化的方向。实现了内容同步算法保持多用户、多客户端之间的内容同步。}
@@ -81,9 +79,13 @@
 \cvline{文档撰写}{Markdown（熟练），Word、PRD 文档及脑图（了解）}
 \cvline{外语}{英语（通过六级，流畅地读，较流畅地听、说、写，常使用于技术社区内交流，日常沟通无障碍）}
 
+\section{博客文章}
+\cvline{【译注】Columnar Storage - 列式存储}{\href{http://bachiscoding.com/blog/2015/11/24/annotations-on-paper-trail-columnar-storage/}{http://bachiscoding.com/blog/2015/11/24/annotations-on-paper-trail-columnar-storage/}}
+\cvline{关于快速排序算法的一些想法}{\href{http://bachiscoding.com/blog/2014/12/26/some-thoughts-on-quicksort/}{http://bachiscoding.com/blog/2014/12/26/some-thoughts-on-quicksort/}}
+
 \section{其它信息}
-\cvline{Github}{https://github.com/winiex}
-\cvline{About Me}{http://about.me/winiex}
+\cvline{Github}{\href{https://github.com/winiex}{https://github.com/winiex}}
+\cvline{About Me}{\href{http://about.me/winiex}{http://about.me/winiex}}
 \cvline{兴趣爱好}{音乐、阅读}
 
 \end{document}
